@@ -41,7 +41,7 @@ body {
 
 .resume {
   display: flex;
-  flex-direction: column; /* Изменение направления столбцов на вертикальное */
+  flex-direction: row; /* Изменение направления столбцов на горизонтальное */
   font-family: 'Roboto', sans-serif;
   font-size: 13.0736px;
   font-weight: 400;
@@ -112,22 +112,19 @@ body {
   padding-top: 0;
 }
 .resume .resume__main {
-  width: 100%; /* Левая сторона займет всю доступную ширину */
+  width: 60%; /* Левая сторона будет занимать 60% ширины */
+  padding-right: 6em; /* Добавлено поле справа для отступа */
 }
 
 .resume .resume__side {
-  width: 100%; /* Правая сторона займет всю доступную ширину */
+  width: 30%; /* Правая сторона будет занимать 30% ширины */
 }
 
-.resume .resume__main {
-  float: left;
-  width: 75%;
-  padding-right: 6em;
-}
+.resume .resume__main,
 .resume .resume__side {
-  float: left;
-  width: 25%;
+  padding: 0 2em; /* Добавлено поле по бокам для отступа */
 }
+
 .resume .other-info p > b {
   color: #555;
 }
@@ -190,32 +187,3 @@ body {
 .resume .extra-details {
   margin-top: 0.5em;
   background-color: #d1d9e1;
-  width: 100%;
-  height: 5px;
-  position: relative;
-}
-.resume .extra-details__progress {
-  background-color: #5695cd;
-  height: 5px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.resume .lang-item {
-  margin-bottom: 2em;
-}
-.resume .lang-item:last-child {
-  margin-bottom: 0;
-}
-.resume .lang-label {
-  width: 8em;
-}
-
-@media print {
-  body {
-    min-width: initial !important;
-  }
-  .btn-print {
-    display: none;
-  }
-}
