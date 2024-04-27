@@ -41,10 +41,10 @@ body {
   min-height: 1090.41px;
 }
 .resume-photo {
-  width: 100px; /* Укажите нужную ширину */
-  height: auto; /* Автоматическая высота */
-  border-radius: 50%; /* Скругленные края, чтобы сделать фото круглым */
-  margin-bottom: 10px; /* Пространство между фото и именем */
+  width: 150px; /* Увеличьте значение для увеличения размера фотографии */
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 .resume h1 {
   font-size: 2.86em;
