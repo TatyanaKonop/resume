@@ -32,6 +32,13 @@ body {
   right: 20px;
   top: 20px;
 }
+.resume-photo {
+  width: 100px; /* Укажите нужную ширину */
+  height: auto; /* Автоматическая высота */
+  border-radius: 50%; /* Скругленные края, чтобы сделать фото круглым */
+  margin-bottom: 10px; /* Пространство между фото и именем */
+}
+
 .resume {
   display: block;
   font-family: 'Roboto', sans-serif;
