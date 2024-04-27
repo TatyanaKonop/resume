@@ -41,8 +41,11 @@ body {
   min-height: 1090.41px;
 }
 .resume-photo {
-	width: 80%;
-	border-radius: 50%;
+  width: 132px;
+height: 132px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
 }
 .resume h1 {
   font-size: 2.86em;
