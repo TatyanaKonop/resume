@@ -40,15 +40,12 @@ body {
   line-height: 1.5;
   min-height: 1090.41px;
 }
-.resume__content {
-  display: flex;
-  align-items: center; /* Центрировать элементы вертикально */
-}
+
 .resume-photo {
-  width: 100px; /* Укажите нужную ширину */
+  width: 150px; /* Укажите нужную ширину */
   height: auto; /* Автоматическая высота */
   border-radius: 0%; /* Скругленные края, чтобы сделать фото круглым */
-  margin-right: 20px; /* Отступ справа для разделения между фото и текстом */
+  margin-right: 0px; /* Отступ справа для разделения между фото и текстом */
 }}
 .resume h1 {
   font-size: 2.86em;
