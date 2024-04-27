@@ -40,13 +40,15 @@ body {
 }
 
 .resume {
-  display: block;
+  display: flex;
+  flex-direction: column; /* Изменение направления столбцов на вертикальное */
   font-family: 'Roboto', sans-serif;
   font-size: 13.0736px;
   font-weight: 400;
   line-height: 1.5;
   min-height: 1090.41px;
 }
+
 .resume h1 {
   font-size: 2.86em;
   font-weight: 600;
@@ -109,6 +111,14 @@ body {
   padding: 4em;
   padding-top: 0;
 }
+.resume .resume__main {
+  width: 100%; /* Левая сторона займет всю доступную ширину */
+}
+
+.resume .resume__side {
+  width: 100%; /* Правая сторона займет всю доступную ширину */
+}
+
 .resume .resume__main {
   float: left;
   width: 75%;
@@ -200,6 +210,7 @@ body {
 .resume .lang-label {
   width: 8em;
 }
+
 @media print {
   body {
     min-width: initial !important;
