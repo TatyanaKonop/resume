@@ -91,13 +91,14 @@ h5 {
 .projectName span, 
 .jobPosition span {
   font-size: 0.45cm;
+  margin-top: 0.4cm;
 }
 
 .smallText, 
 .smallText span, 
 .smallText p, 
 .smallText a {
-  font-size: 0.45cm;
+  font-size: 0.4cm;
 }
 
 .leftPanel .smallText, 
@@ -236,6 +237,7 @@ page[size="A4"] {
 .workExperience>ul {
   list-style-type: none;
   padding-left: 0;
+  
 }
 
 .workExperience>ul>li {
@@ -265,12 +267,15 @@ page[size="A4"] {
   top: 0;
   width: 0.35cm;
   height: 0.35cm;
+  
 }
 
 .jobPosition {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  
   
 }
 }
