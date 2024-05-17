@@ -98,7 +98,7 @@ h5 {
 .smallText span, 
 .smallText p, 
 .smallText a {
-  font-size: 0.45cm;
+  font-size: 0.5cm;
 }
 
 .leftPanel .smallText, 
@@ -106,7 +106,7 @@ h5 {
 .leftPanel .smallText span, 
 .leftPanel .smallText p, 
 .smallText a {
-  font-size: 0.5cm;
+  font-size: 0.45cm;
 }
 
 .contactIcon {
