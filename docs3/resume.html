@@ -1,144 +1,361 @@
-<html lang="en">
 
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible"
-		content="IE=edge">
-	<meta name="viewport"
-		content="width=device-width, 
-				initial-scale=1.0">
-	<link rel="stylesheet"
-		href="resume.css">
+  <meta charset="UTF-8">
+  
+      <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-
 <body>
-	<div class="full">
-		<div class="left">
-			<div class="image">
-				<img src=IMG_1.jpg
-					alt="gfg-logo"
-					style="width:100px;
-							height:100px;">
-			</div>
-			<div class="Contact">
-				<h2>Contact</h2>
-				<p>
-					<b>Email id:</b>xyz@gmail.com
-				</p>
-				<p>
-					<b>Mobile no :</b>1234567890
-				</p>
-			</div>
-			<div class="Skills">
-				<h2>Skills</h2>
-				<ul>
-					<li>
-						<b>Programming Languages :
-							Python, Java, C++</b>
-					</li>
-					<li>
-						<b>Frontend : HTML5, CSS3,
-							JavaScript, React</b>
-					</li>
-					<li>
-						<b>Backend : Node.js</b>
-					</li>
-				</ul>
-			</div>
-			<div class="Language">
-				<h2>Language</h2>
-				<ul>
-					<li>English</li>
-					<li>Hindi</li>
-				</ul>
-			</div>
-			<div class="Hobbies">
-				<h2>Hobbies</h2>
-				<ul>
-					<li>Playing cricket</li>
-					<li>Swimming</li>
-				</ul>
-			</div>
-		</div>
-		<div class="right">
-			<div class="name">
-				<h1>GeeksforGeeks</h1>
-			</div>
-			<div class="title">
-				<p>Web Developer</p>
-			</div>
-			<div class="Summary">
-				<h2>Summary</h2>
-				<p>
-					To secure a challenging position in a
-					reputable organization
-					to expand my learning knowledge and skill
-				</p>
-			</div>
-			<div class="Experience">
-				<h2>Experience</h2>
-				<h3>Abc webdev pvt ltd - Senior Web Developer</h3>
-				<p>January 2022 to Present</p>
-				<ul>
-					<li>
-						Actively engaged in web creative
-						design and development.
-					</li>
-					<li>
-						Designing project & planning
-					</li>
-				</ul>
-				<h3>Xyz webdev pvt ltd - junior web developer</h3>
-				<p>August 2021 to December 2021</p>
-				<ul>
-					<li>
-						Actively engaged in web creative
-						design and development.
-					</li>
-					<li>Designing project & planning</li>
-					<li>Working on designing</li>
-				</ul>
-			</div>
-			<div class="Education">
-				<h2>Education</h2>
-				<table>
-					<tr>
-						<th>University/college </th>
-						<th>Passing year </th>
-						<th>percentage/cgpa</th>
-					</tr>
-					<tr>
-						<td>xyz</td>
-						<td>2020</td>
-						<td>8.9</td>
-					</tr>
-					<tr>
-						<td>pqr</td>
-						<td>2018</td>
-						<td>89%</td>
-					</tr>
-				</table>
-			</div>
-			<div class="project">
-				<ul>
-					<li>
-						<h2>Project1</h2>
-						<p>
-							This project is based on html
-							& used React
-						</p>
-					</li>
-					<li>
-						<h2>Project2</h2>
-						<p>
-							This project is based on html
-							& used React
-						</p>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</body>
+  <page size="A4">
+    <div class="container">
+      <div class="leftPanel">
+        <img src="IMG_1.jpg"/>
+        <div class="details">
+          <div class="item bottomLineSeparator">
+            <h2>
+              CONTACT
+            </h2>
+            <div class="smallText">
+              <p>
+                <i class="fa fa-phone contactIcon" aria-hidden="true"></i>
+                +375 (44) 713 77 52
+              </p>
+              <p>
+                <i class="fa fa-envelope contactIcon" aria-hidden="true"></i>
+                <a href="mailto:korotyshtv33@gmail.com">korotyshtv33@gmail.com</a>
+              </p>
+              <p>
+                <i class="fa fa-map-marker contactIcon" aria-hidden="true"></i>
+                Minsk, Belarus
+              </p>
+             <p>
+                <i class="fa fa-linkedin-square contactIcon" aria-hidden="true"></i>
+                <a href="#" class="linkedin-link" data-url="https://www.linkedin.com/in/татьяна-конопацкая-061b66244">
+                    LinkedIn Profile
+                </a>
+            </p>
+              
+            </div>
+          </div>
+          <div class="item bottomLineSeparator">
+            <h2>
+              SKILLS
+            </h2>
+            
+            <div class="smallText">
+              <div class="skill">
+                <h4>Programming  languages</h4>
+              </div>
 
+              <div class="skillProgLang">
+                <div>
+                  <span>Python</span>
+                </div>
+                  <div>
+                  <span>JavaScript</span>
+                </div>
+                <div>
+                  <span>SQL</span>
+                </div>
+              </div>
+              
+              
+              <div class="skillProgLang">
+                <h4>Programming technologies</h4>
+                <div>
+                  <span>Pytest</span>
+                </div>
+                <div>
+                  <span>Selenium Webdriver</span>
+                </div>
+                <div>
+                  <span>Cypress</span>
+                </div>
+                <div>
+                  <span>Playwright</span>
+                </div>
+                <div>
+                  <span>Docker</span>
+                </div>
+                <div>
+                  <span>Jira</span>
+                </div>
+                 <div>
+                  <span>Postman</span>
+                </div>
+                <div>
+                  <span>GitHub</span>
+                </div>
+                <div>
+                  <span>GitLab</span>
+                </div>
+              </div>
+              
+             </section>
+            <section class="resume__section resume__languages">
+              <div class="resume__content">
+                <div class="resume__section-title">
+                  <h4>Languages</h4>
+                </div>
+                <div class="extra">
+                  <div class="extra-info">Russian <small>(native)</small></div>
+                  <div class="extra-details">
+                    <div class="extra-details__progress" style="width:100%"></div>
+                  </div>
+                </div>
+                <div class="extra">
+                  <div class="extra-info">English</div>
+                  <div class="extra-details">
+                    <div class="extra-details__progress" style="width:65%"></div>
+                  </div>
+                </div>
+                <div class="extra">
+                  <div class="extra-info">French</div>
+                  <div class="extra-details">
+                    <div class="extra-details__progress" style="width:20%"></div>
+                  </div>
+                  <p></p>
+                 
+                </div>
+              </div>
+
+            </section>  
+                           
+              
+              
+
+            </div>
+          </div>
+          <div class="item">
+            <h2>
+              EDUCATION
+            </h2>
+            <div class="smallText">
+              
+              <p class="bolded white">
+                Referent-translator
+              </p>
+              <p>
+                The BSU of Minsk
+              </p>
+              <p>
+                09/2008-03/2010 
+              </p>
+               <p class="bolded white">
+                Master’s degree of economics
+              </p>
+              <p>
+                The BNTU of Minsk
+              </p>
+              <p>
+                09/2007 – 06/2008 
+              </p>
+              <p class="bolded white">
+                Economist-manager
+              </p>
+              <p>
+                The BNTU of Minsk
+              </p>
+              <p>
+                09/2002 – 06/2007 
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="rightPanel">
+        <div>
+           <button class="btn btn-print btn-sm btn-light" onClick="handlePrint()">
+        <i class="fa fa-print"></i>
+        Print
+      </button>
+          <h1>
+            Tatyana Konopatskay
+          </h1>
+          <div class="smallText">
+            <h3>
+              AQA engineer
+            </h3>
+          </div>
+        </div>
+        <div>
+          <h2>
+            About me
+          </h2>
+          <div class="smallText">
+            <p>
+             Result-oriented automation engineer with expertise in manual and automated testing web applications. Proficient in test automation for REST APIs and UI, skilled in creating and supporting automation frameworks from scratch. Experienced in developing comprehensive documentation for QA processes (encompassing test plans and strategies). Able to apply different test design techniques and best practices. Skilled in setting up a CI environment for automation.  Possesses splendid communication and analytical skills, with the ability to understand and analyze complex issues. 
+
+          </div>
+        </div>
+        <div class="workExperience">
+          <h2>
+            Work experience
+          </h2>
+          <ul>
+            <li>
+              <div class="jobPosition">
+                <span class="bolded">
+                  AQA engineer
+                </span>
+                <span>
+                  08/2023 - up to now
+                </span>
+              </div>
+              <div class="projectName bolded">
+                <span>
+                  LLC "Factory of Innovations and Solutions" (Minsk)
+                </span>
+              </div>
+              <div class="smallText">
+               <span class="bolded"> Responsibilities:</span>
+                <ul>
+                  <li>
+                    Requirements analyzing;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Tasks analysis and estimation;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Creating and implementing automation test frameworks based on business requirements;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    REST API testing;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Collaborate with cross-functional teams (developers, product managers etc.) to find ways on how automation can improve the workflow;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Contract Testing;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Creating metrics to monitor the development process and its quality.
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    GUI testing;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Creating test scripts for automation testing;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Defect reporting and analysis;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Configuring CI pipelines;
+                  </li>
+                </ul>
+                <p>
+                  <span class="bolded">Skills: </span> Functional/non-fuctional testing, Web testing, Rest API, manual and automation testing
+                </p>
+              </div>
+            
+              
+
+          
+          
+          
+            
+              <div class="jobPosition">
+                <span class="bolded">
+                  QA engineer
+                </span>
+                <span>
+                  04/2022 - 06/2022
+                </span>
+              </div>
+              <div class="projectName bolded">
+                <span>
+                  IT Academy (Minsk)
+                </span>
+              </div>
+              <div class="smallText">
+               <span class="bolded"> Responsibilities:</span>
+                <ul>
+                  <li>
+                    Requirements analyzing;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Tasks analysis and estimation;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Creating a manual test documentation: test strategy, checklist, test cases, bag report, test result report;
+                </ul>
+                <ul>
+                  <li>
+                    REST API testing;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    GUI testing;
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Defect reporting and analysis;
+                  </li>
+                </ul>
+               
+                <p>
+                  <span class="bolded">Skills: </span> Functional/non-fuctional testing, Web testing, Rest API, manual  testing
+                </p>
+              </div>
+            </li>
+     </li>
+     </li>
+          </ul>
+                 
+              </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </page>
+  <page size="A4">
+    <div class="container">
+      <div class="leftPanel">
+      </div>
+      <div class="rightPanel">
+      </div>
+  </page> 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $(".linkedin-link").click(function(e){
+            e.preventDefault();
+            var url = $(this).data("url");
+            window.open(url, '_blank');
+        });
+    });
+  </script>
+</body>
 </html>
